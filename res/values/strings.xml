@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">StateProject</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_display">DisplayActivity</string>
+    <string name="displayResults">The results are</string>
+    <string name="homeButtonText">GO HOME!</string>
+    <string name="transferButtonText">Show state of app</string>
+
+</resources>

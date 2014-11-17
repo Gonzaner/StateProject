@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <EditText
+        android:id="@+id/blatherTextField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/phraseTextField"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="48dp"
+        android:ems="10"
+        android:hint="Blather" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/phraseTextField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/blatherTextField"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:ems="10"
+        android:hint="Phrase" />
+
+    <EditText
+        android:id="@+id/ageTextField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/phraseTextField"
+        android:layout_alignLeft="@+id/phraseTextField"
+        android:layout_marginBottom="61dp"
+        android:ems="10"
+        android:hint="Age" />
+
+    <EditText
+        android:id="@+id/nameTextField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ageTextField"
+        android:layout_alignLeft="@+id/ageTextField"
+        android:layout_marginBottom="54dp"
+        android:ems="10"
+        android:hint="Name" />
+
+    <Button
+        android:id="@+id/transferButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/nameTextField"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="22dp"
+        android:text="@string/transferButtonText" />
+
+</RelativeLayout>
